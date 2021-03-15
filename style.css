@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e3e3e3;
+}
+input {
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.4),
+    inset 6px 6px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  background-color: white;
+  width: 250px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  caret-color: red;
+}
+::-webkit-input-placeholder {
+  color: red;
+  opacity: 0.6;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 240px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: solid 2px white;
+  border-radius: 20px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.4),
+    inset 3px 3px 3px rgba(0, 0, 0, 0.4);
+  background-color: #e3e3e3;
+}
+ul {
+  margin: 0;
+}
+h3 {
+  margin: 5px;
+  font-size: 22px;
+  text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.4);
+}
+.todoH3 {
+  color: green;
+}
+.finishH3 {
+  color: tomato;
+}
+span {
+  cursor: pointer;
+}
+span:hover {
+  background-color: gray;
+  font-size: 15px;
+}
